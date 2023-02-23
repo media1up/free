@@ -1,0 +1,11 @@
+RewriteEngine On
+ReWriteRule ^login$ login.php
+ReWriteRule ^register$ register.php
+ReWriteRule ^forgot-password$ forgot_password.php
+
+
+ReWriteRule ^member/([^/]+)$ member.php?page=$1
+
+ReWriteRule ^ref/([0-9a-zA-Z]+)$ ref.php?ref=$1
+
+
